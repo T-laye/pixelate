@@ -44,6 +44,7 @@
 body {
   background: #150e28;
   color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .btn {
@@ -64,7 +65,7 @@ body {
   animation: glitch 4s linear infinite;
 }
 .float {
-  animation: float 4s linear infinite;
+  animation: float 3s linear infinite;
 }
 
 @keyframes glitch {
