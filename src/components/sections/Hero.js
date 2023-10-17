@@ -15,7 +15,7 @@ export default function Hero() {
   const handleCopyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(valueToCopy);
-      alert("Value copied to clipboard!");
+      alert("Contract Address copied to clipboard!");
     } catch (error) {
       console.error("Error copying to clipboard:", error);
     }
@@ -86,8 +86,8 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="pt-10 ">
-          <div className="float ">
+        <div className=" h-1/2  flex items-center">
+          <div className="float -mt-14 ">
             <Image
               src={globe}
               alt="globe"
