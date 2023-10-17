@@ -87,7 +87,7 @@ export default function Hero() {
           </div>
         </div>
         <div className=" h-1/2  flex items-center justify-center">
-          <div className=" float -mt-10 h-full">
+          <div className=" float -mt-5 h-3/4">
             <Image
               src={globe}
               alt="globe"

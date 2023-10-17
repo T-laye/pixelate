@@ -21,7 +21,7 @@ export default function Header() {
         </div>
         <div className="flex items-center">
           <button className="btn btn-gradient ">Buy Now</button>
-          <div onClick={handleNav} className="ml-2">
+          <div onClick={handleNav} className="ml-2 cursor-pointer">
             <FiMenu size={24} />
           </div>
 
@@ -40,12 +40,12 @@ export default function Header() {
                   className={`${
                     openNav
                       ? "translate-y-0 duration-500 opacity-100"
-                      : "duration-500 -translate-y-full opacity-0"
+                      : "duration-300 -translate-y-full opacity-0"
                   } flex flex-col  bg-[#150e28]  h-[55vh]   px-10 pt-10`}
                 >
                   <div
                     onClick={handleNav}
-                    className=" w-[23px] place-self-end mx-4 cursor-pointer"
+                    className=" w-[28px] place-self-end mx-4 cursor-pointer"
                   >
                     <Image
                       src={close}
@@ -57,19 +57,19 @@ export default function Header() {
                     />
                   </div>
                   <ul className="flex flex-col space-y-2.5 text-[18px] font-medium mt-14 bggray-800 justify-center place-self-center  w-full items-start ">
-                    <li className="link duration-300">
+                    <li className="link ">
                       <Link href="/#overview">Overview</Link>
                     </li>
-                    <li className="link duration-300">
+                    <li className="link ">
                       <Link href="/#howtobuy">How to Buy</Link>
                     </li>
-                    <li className="link duration-300">
+                    <li className="link ">
                       <Link href="/#tokenomics">Tokenomics</Link>
                     </li>
-                    <li className="link duration-300">
+                    <li className="link ">
                       <Link href="/#roadMap">Road Map</Link>
                     </li>
-                    <li className="link duration-300">
+                    <li className="link ">
                       <Link href="/#chart">Chart</Link>
                     </li>
                   </ul>
