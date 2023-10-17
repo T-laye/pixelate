@@ -5,10 +5,10 @@ import DropBoxes from "../DropBoxes";
 
 export default function Audit() {
   return (
-    <div className="h-[30vh] border-b border-b-[#FFFFFF20] ">
+    <div className="h-[32vh] border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
       <div className="container mx-auto h-full flex justify-center items-center">
-        <div className="w-full px-14">
+        <div className="w-full px-9">
           <Image
             src={auditors}
             alt="$PXL8"

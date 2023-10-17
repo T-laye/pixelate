@@ -34,10 +34,7 @@ export default function Home() {
       </section>
 
       {/* Overview */}
-      <section className="relative">
-       
-        <Audit />
-      </section>
+      <section className="relative h-[20vh]">{/* <Audit /> */}</section>
     </Layout>
   );
 }
