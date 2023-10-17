@@ -22,7 +22,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="h-[92vh]">
+    <div className="h-[87vh] border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
       <div className="container px-7  h-full">
         <div className="bg-pimary pt-10 h-1/2">
@@ -87,14 +87,14 @@ export default function Hero() {
           </div>
         </div>
         <div className=" h-1/2  flex items-center">
-          <div className="float -mt-14 ">
+          <div className=" float -mt-10 ">
             <Image
               src={globe}
               alt="globe"
               height={700}
               width={700}
               priority
-              className="h-full glitch w-full"
+              className="h-full globe-glitch w-full"
             />
           </div>
         </div>

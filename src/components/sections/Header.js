@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi";
 export default function Header() {
   return (
     <header className="h-[8vh] border-b border-b-[#FFFFFF20] ">
-      <div className="container px-5 h-full flex items-center justify-between bg-lightBlu">
+      <div className="container px-5 h-full flex items-center justify-between">
         <div>
           <Logo />
         </div>

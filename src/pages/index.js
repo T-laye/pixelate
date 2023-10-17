@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-screen">
+      <section className="relative ">
         <div className="bg-[#150e28] absolute -top-28 -left-32 -z-10">
           <Glow />
         </div>
