@@ -25,7 +25,7 @@ export default function Hero() {
     <div className="h-[92vh]">
       <DropBoxes />
       <div className="container px-7  h-full">
-        <div className="bg-pimary pt-8 h-1/2">
+        <div className="bg-pimary pt-10 h-1/2">
           <div className="w-40 glitch ">
             <Image
               src={logo}
