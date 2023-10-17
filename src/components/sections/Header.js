@@ -10,7 +10,7 @@ export default function Header() {
           <Logo />
         </div>
         <div className="flex items-center  space-x-2.5">
-          <div className="btn btn-gradient ">Buy Now</div>
+          <button className="btn btn-gradient ">Buy Now</button>
           <div>
             <FiMenu size={24} />
           </div>

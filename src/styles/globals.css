@@ -4,6 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
+}
+* > * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
+}
+
 .bg-gradient-blue {
   background: linear-gradient(
     90deg,
@@ -39,16 +50,21 @@ body {
   border-radius: 1.852px;
   @apply py-1.5 min-w-[58px] min-h-[20px] cursor-pointer px-5 flex items-center justify-center font-semibold text-xs;
 }
-.btn:hover {
+.btn:hover,
+.icon:hover {
   @apply scale-95 duration-200;
 }
-.btn:active {
+.btn:active,
+.icon:active {
   @apply scale-100 duration-200;
 }
 
 /* Animations */
 .glitch {
   animation: glitch 4s linear infinite;
+}
+.float {
+  animation: float 4s linear infinite;
 }
 
 @keyframes glitch {
@@ -155,7 +171,7 @@ body {
   width: 20px;
   height: 20px;
   background: #db4bff50;
-  animation: animate 105s linear infinite;
+  animation: animate 14s linear infinite;
   bottom: -150px;
 }
 
@@ -171,7 +187,7 @@ body {
   width: 14px;
   height: 14px;
   animation-delay: 2s;
-  animation-duration: 12s;
+  animation-duration: 10s;
 }
 
 .circles li:nth-child(3) {
@@ -186,7 +202,7 @@ body {
   width: 14px;
   height: 14px;
   animation-delay: 0s;
-  animation-duration: 18s;
+  animation-duration: 10s;
 }
 
 .circles li:nth-child(5) {
@@ -215,7 +231,7 @@ body {
   width: 20px;
   height: 20px;
   animation-delay: 15s;
-  animation-duration: 45s;
+  animation-duration: 30s;
 }
 
 .circles li:nth-child(9) {
