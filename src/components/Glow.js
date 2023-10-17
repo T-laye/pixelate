@@ -12,7 +12,7 @@ export default function Glow() {
           height={500}
           alt="glow"
           // onClick={handleImageClick}
-          className=" object-center w-[983px] lg:w-[600px] 2xl:w-[800px]"
+          className=" object-center w-[1000px] lg:w-[600px] 2xl:w-[800px]"
         />
       </div>
     </>

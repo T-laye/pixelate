@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Logo({ height, width }) {
   return (
     <Link href="/">
-      <div className="w-14 ">
+      <div className="w-14 lg:w-24">
         <Image
           src={logo}
           alt="$PXL8"

@@ -48,8 +48,7 @@ body {
 }
 
 .btn {
-  border-radius: 1.852px;
-  @apply py-1.5 min-w-[58px] min-h-[20px] cursor-pointer px-5 flex items-center justify-center font-semibold text-xs;
+  @apply rounded-md py-1.5 min-w-[58px] min-h-[20px] lg:py-3 lg:min-h-[24px] lg:min-w-[157px] lg:text-base cursor-pointer px-5 flex items-center justify-center font-semibold text-xs;
 }
 .btn:hover,
 .icon:hover {

@@ -14,14 +14,34 @@ export default function Header() {
   };
 
   return (
-    <header className="h-[8vh] border-b border-b-[#FFFFFF20] ">
-      <div className="container px-5 h-full flex items-center justify-between">
+    <header className="h-[8vh] lg:h-[13vh] 2xl:h-[10vh] border-b border-b-[#FFFFFF20] ">
+      <div className="container mx-auto px-5 h-full flex items-center justify-between">
         <div>
           <Logo />
         </div>
         <div className="flex items-center">
+          {/* Desktop Navbar */}
+          <nav className="hidden lg:block mr-10">
+            <ul className="flex space-x-10 text-base">
+              <li className="link ">
+                <Link href="/#overview">Overview</Link>
+              </li>
+              <li className="link ">
+                <Link href="/#howtobuy">How to Buy</Link>
+              </li>
+              <li className="link ">
+                <Link href="/#tokenomics">Tokenomics</Link>
+              </li>
+              <li className="link ">
+                <Link href="/#roadMap">Road Map</Link>
+              </li>
+              <li className="link ">
+                <Link href="/#chart">Chart</Link>
+              </li>
+            </ul>
+          </nav>
           <button className="btn btn-gradient ">Buy Now</button>
-          <div onClick={handleNav} className="ml-2 cursor-pointer">
+          <div onClick={handleNav} className="ml-2 cursor-pointer lg:hidden">
             <FiMenu size={24} />
           </div>
 

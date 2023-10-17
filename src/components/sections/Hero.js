@@ -24,9 +24,9 @@ export default function Hero() {
   return (
     <div className="h-[87vh] border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
-      <div className="container px-7  h-full">
-        <div className="bg-pimary pt-10 h-1/2">
-          <div className="w-40 glitch ">
+      <div className="container mx-auto px-7  lg:flex h-full">
+        <div className="bg-pimary pt-10 lg:pt-20 2xl:pt-28 lg:flex flex-col h-1/2 lg:w-1/2  lg:h-full">
+          <div className="w-40 glitch lg:w-64 2xl:w-80">
             <Image
               src={logo}
               alt="$PXL8"
@@ -37,14 +37,14 @@ export default function Hero() {
             />
           </div>
           <div className="w-4/5 mt-6">
-            <p className="text-sm">
+            <p className="text-sm lg:text-lg 2xl:text-xl">
               We are all about Organic growth, no presale, no snipers, no
               bullshit, just Community!
             </p>
           </div>
-          <div className="flex space-x-2 mt-3">
+          <div className="flex space-x-2 mt-3 2xl:mt-5">
             <Link href="#">
-              <div className="w-8 icon ">
+              <div className="w-8 lg:w-10 icon ">
                 <Image
                   src={x_icon}
                   alt="twitter"
@@ -57,7 +57,7 @@ export default function Hero() {
             </Link>
 
             <Link href="#">
-              <div className="w-8 icon ">
+              <div className="w-8 lg:w-10 icon ">
                 <Image
                   src={telegram_icon}
                   alt="telegram"
@@ -70,24 +70,26 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="mt-4">
-            <h2 className="font-semibold text-base">Contract Address</h2>
+          <div className="mt-4 2xl:mt-7">
+            <h2 className="font-semibold text-base lg:text-xl">
+              Contract Address
+            </h2>
             <div
               onClick={handleCopyToClipboard}
-              className="flex space-x-3 w-fit p-2 border border-primary bg-[#D434FE1F] mt-4 rounded-md"
+              className="flex items-center space-x-3 w-fit p-2 border border-primary bg-[#D434FE1F] mt-4 rounded-md"
             >
-              <div className=" text-[10px]">{address}</div>
+              <div className=" text-[10px] lg:text-base">{address}</div>
               <div className="">
-                <MdContentCopy />
+                <MdContentCopy className="lg:text-base" />
               </div>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 2xl:mt-10">
               <button className="btn btn-gradient ">Buy Now</button>
             </div>
           </div>
         </div>
-        <div className=" h-1/2  flex items-center justify-center">
-          <div className=" float -mt-5 h-3/4">
+        <div className=" h-1/2 lg:w-1/2 lg:h-full flex items-center justify-center">
+          <div className=" float -mt-5  h-3/4 lg:h-full ">
             <Image
               src={globe}
               alt="globe"
