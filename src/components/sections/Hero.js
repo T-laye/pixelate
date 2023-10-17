@@ -86,7 +86,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="pt-5 ">
+        <div className="pt-10 ">
           <div className="float ">
             <Image
               src={globe}
