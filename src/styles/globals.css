@@ -47,8 +47,8 @@ body {
 }
 
 /* Animations */
-.ani {
-  animation: float 4s linear infinite;
+.glitch {
+  animation: glitch 4s linear infinite;
 }
 
 @keyframes glitch {
@@ -65,14 +65,14 @@ body {
   }
 }
 
-.ani:before,
-.ani:after {
+.glitch:before,
+.glitch:after {
   content: attr(title);
   position: absolute;
   left: 0;
 }
 
-.ani:before {
+.glitch:before {
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -92,7 +92,7 @@ body {
   }
 }
 
-.ani:after {
+.glitch:after {
   animation: glitchBotom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
