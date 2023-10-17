@@ -86,15 +86,15 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="pt-5">
-          <div className="float">
+        <div className="pt-5 ">
+          <div className="float ">
             <Image
               src={globe}
               alt="globe"
               height={700}
               width={700}
               priority
-              className="h-full w-full"
+              className="h-full glitch w-full"
             />
           </div>
         </div>
