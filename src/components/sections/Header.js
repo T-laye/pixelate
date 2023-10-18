@@ -107,7 +107,7 @@ export default function Header() {
                       <Link href="/#tokenomics">Tokenomics</Link>
                     </li>
                     <li className="link ">
-                      <Link href="/#roadMap">Road Map</Link>
+                      <Link href="/#roadmap">Road Map</Link>
                     </li>
                     <li className="link ">
                       <Link href="/#chart">Chart</Link>

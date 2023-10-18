@@ -10,6 +10,9 @@ import Overview from "@/components/sections/Overview";
 import How from "@/components/sections/How";
 import Tokenomics from "@/components/sections/Tokenomics";
 import RoadMap from "@/components/sections/RoadMap";
+import DesktopRoadMap from "@/components/sections/DesktopRoadMap";
+import Socials from "@/components/sections/Socials";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -68,16 +71,35 @@ export default function Home() {
       </section>
 
       {/* Road Map */}
-      <section className="relative overflow-hidden">
-        <div className="absolute left-32 top-32   rotate-[160deg] -z-10  scale-[2.5] opacity-20">
+      <section className="relative overflow-hidden lg:hidden">
+        <div className="absolute left-32 top-32 md:left-[40%] rotate-[160deg] -z-10  scale-[2.5] opacity-20">
           <Boxes />
         </div>
-        <div className="bg-[#150e28] top-[25%]   absolute -z-20 ">
+        <div className="bg-[#150e28] top-[25%] md:top-[0%]   absolute -z-20 ">
           <Glow />
         </div>
 
         <RoadMap />
       </section>
+
+      {/* Road Map */}
+      <section className="relative hidden lg:block">
+        <div className="absolute left-[50%] bottom-32   rotate-[160deg] -z-10  scale-[3] opacity-20">
+          <Boxes />
+        </div>
+        <div className="bg-[#150e28] top-[25%] left-[30%]   absolute -z-20 ">
+          <Glow />
+        </div>
+        <DesktopRoadMap />
+      </section>
+
+      <section className="relative">
+        <Socials />
+      </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </Layout>
   );
 }

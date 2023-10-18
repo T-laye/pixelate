@@ -3,7 +3,7 @@ import DropBoxes from "../DropBoxes";
 
 export default function RoadMap() {
   return (
-    <div className="min-h-[50vh] py-14">
+    <div id="roadmap" className="min-h-[50vh] py-14 lg:hidden  ">
       <DropBoxes />
       <div className="container mx-auto">
         <h2 className="text-xl font-semibold mb-10 lg:mb-20 text-center lg:text-3xl">
