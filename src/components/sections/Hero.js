@@ -22,7 +22,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="h-[90vh] lg:h-screen pt-16 border-b border-b-[#FFFFFF20] ">
+    <div className="h-screen pt-16 border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
       <div className="container mx-auto px-7  lg:flex h-full">
         <div className="bg-pimary pt-10 lg:pt-20 2xl:pt-28 lg:flex flex-col h-1/2 lg:w-1/2  lg:h-full">
