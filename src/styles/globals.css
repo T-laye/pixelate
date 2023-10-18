@@ -26,8 +26,8 @@
 .bg-gradient-pink {
   background: linear-gradient(
     90deg,
-    rgba(18, 10, 68, 0.92) 20.21%,
-    #db4bff 82.94%
+    rgba(54, 32, 189, 0.24) 20.21%,
+    rgba(219, 75, 255, 0.22) 82.94%
   );
 }
 
@@ -45,6 +45,12 @@ body {
   background: #150e28;
   color: white;
   font-family: "Inter", sans-serif;
+}
+
+.scrolling-header {
+  background-color: #150e2879;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
 }
 
 .btn {

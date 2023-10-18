@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../Logo";
 import { FiMenu } from "react-icons/fi";
 import Link from "next/link";
@@ -8,13 +8,33 @@ import close from "public/icons/cancel_btn.svg";
 
 export default function Header() {
   const [openNav, setOpenNav] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
+
   const { asPath } = useRouter();
   const handleNav = () => {
     setOpenNav(!openNav);
   };
 
   return (
-    <header className="h-[8vh] lg:h-[13vh] 2xl:h-[10vh] border-b border-b-[#FFFFFF20] ">
+    <header
+      className={`h-[8vh] lg:h-[13vh] 2xl:h-[10vh] border-b border-b-[#FFFFFF20] fixed w-full transition-transform ${
+        visible
+          ? "top-0 transform translate-y-0 scrolling-header lg:overflow-hidden"
+          : "-top-full transform -translate-y-full "
+      } `}
+    >
       <div className="container mx-auto px-5 h-full flex items-center justify-between">
         <div>
           <Logo />
