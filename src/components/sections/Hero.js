@@ -6,6 +6,7 @@ import telegram_icon from "public/icons/telegram-icon.svg";
 import globe from "public/images/globe.svg";
 import Link from "next/link";
 import DropBoxes from "../DropBoxes";
+import { RxDiscordLogo } from "react-icons/rx";
 import { MdContentCopy } from "react-icons/md";
 
 export default function Hero() {
@@ -68,30 +69,36 @@ export default function Hero() {
                 />
               </div>
             </Link>
+
+            <Link href="#">
+              <div className="w-8 h-8 rounded-full bg-[#D434FE1F] border-[0.816px] border-primary flex items-center justify-center lg:w-10 lg:h-10 icon ">
+                <RxDiscordLogo className="text-2xl lg:text-3xl" />
+              </div>
+            </Link>
           </div>
 
-          <div className="mt-4 2xl:mt-7">
+          <div className="mt-4 2xl:mt-7 z-10 cursor-pointer max-[300px]:w-4/5">
             <h2 className="font-semibold text-base md:text-lg lg:text-xl">
               Contract Address
             </h2>
             <div
               onClick={handleCopyToClipboard}
-              className="flex items-center space-x-3 w-fit p-2 border border-primary bg-[#D434FE1F] mt-4 rounded-md"
+              className="flex items-center  space-x-3 w-fit p-2 border border-primary bg-[#D434FE1F] mt-4 rounded-md"
             >
-              <div className=" text-[10px] md:text-sm lg:text-base">
+              <div className=" text-[10px] max-[300px]:text-[7px]  md:text-sm lg:text-base">
                 {address}
               </div>
               <div className="">
                 <MdContentCopy className="lg:text-base" />
               </div>
             </div>
-            <div className="mt-6 2xl:mt-10">
+            <div className="mt-6 2xl:mt-10 -z-10">
               <button className="btn btn-gradient ">Buy Now</button>
             </div>
           </div>
         </div>
-        <div className=" h-1/2 lg:w-1/2 lg:h-full flex items-center justify-center">
-          <div className=" float -mt-5  h-3/4 lg:h-full ">
+        <div className=" h-1/2 lg:w-1/2  lg:h-full flex -z-20 items-center justify-center">
+          <div className=" float -mt-5  h-3/4 lg:h-full  ">
             <Image
               src={globe}
               alt="globe"

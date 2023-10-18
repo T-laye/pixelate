@@ -4,10 +4,12 @@ import React from "react";
 import x_icon from "public/icons/x-icon.svg";
 import telegram_icon from "public/icons/telegram-icon.svg";
 import { RxDiscordLogo } from "react-icons/rx";
+import DropBoxes from "../DropBoxes";
 
 export default function Socials() {
   return (
     <div className="pt-5 pb-10 lg:min-h-[50vh]  lg:pt-10 lg:pb-20">
+      <DropBoxes />
       <div className="container mx-auto px-8">
         <h2 className="text-xl font-semibold mb-3 lg:mb-3 text-center lg:text-3xl">
           Socials
@@ -47,7 +49,7 @@ export default function Socials() {
 
           <Link href="#">
             <div className="w-9 h-9 rounded-full bg-[#D434FE1F] border-[0.816px] border-primary flex items-center justify-center lg:w-14 lg:h-14 icon ">
-              <RxDiscordLogo  className="text-2xl lg:text-3xl" />
+              <RxDiscordLogo className="text-2xl lg:text-3xl" />
             </div>
           </Link>
         </div>
