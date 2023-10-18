@@ -9,6 +9,7 @@ import Boxes from "@/components/Boxes";
 import Overview from "@/components/sections/Overview";
 import How from "@/components/sections/How";
 import Tokenomics from "@/components/sections/Tokenomics";
+import RoadMap from "@/components/sections/RoadMap";
 
 export default function Home() {
   return (
@@ -64,6 +65,11 @@ export default function Home() {
         </div>
 
         <Tokenomics />
+      </section>
+
+      {/* Road Map */}
+      <section>
+        <RoadMap />
       </section>
     </Layout>
   );

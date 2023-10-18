@@ -40,7 +40,7 @@ export default function Tokenomics() {
           </div>
 
           <div className="mt-16 lg:w-1/2 lg:mt-0 lg:flex items-center md:px-4">
-            <div className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md p-5 mx-auto">
+            <div className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md px-5 pb-7 mx-auto">
               <h3 className="text-base lg:text-2xl font-semibold text-center mt-5 lg:mt-0">
                 Supply Breakdown
               </h3>
