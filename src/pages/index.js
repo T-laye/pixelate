@@ -27,10 +27,10 @@ export default function Home() {
         <div className="bg-[#150e28] absolute top-2 left-20 -z-10  lg:left-96">
           <Glow />
         </div>
-        <div className="absolute -left-[66%] -top-1 -rotate-90 md:-left-40 md:top-10 lg:-left-48 lg:top-20  lg:scale-[1.5]">
+        <div className="absolute -left-[66%] -top-1 -z-10 -rotate-90 md:-left-40 md:top-10 lg:-left-48 lg:top-20  lg:scale-[1.5]">
           <Boxes />
         </div>
-        <div className="absolute -right-[32%] top-1 rotate-60 md:-right-16 md:top-20 lg:-right-24 lg:top-48 md:scale-[1.5] lg:scale-[2]">
+        <div className="absolute -right-[32%] top-1 -z-10 rotate-60 md:-right-16 md:top-20 lg:-right-24 lg:top-48 md:scale-[1.5] lg:scale-[2]">
           <Boxes />
         </div>
         <Audit />
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* Overview */}
       <section className="relative ">
-        <div className="absolute -right-[5%] -top-14 rotate-60 md:right-20 lg:right-24 lg:top-10 md:scale-[1.5] lg:scale-[2]">
+        <div className="absolute -right-[5%] -top-14 -z-10 rotate-60 md:right-20 lg:right-24 lg:top-10 md:scale-[1.5] lg:scale-[2]">
           <Boxes />
         </div>
         <Overview />
@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* How it works */}
       <section className="relative">
-        <div className="absolute -left-[20%] top-48 rotate-60 md lg:hidden">
+        <div className="absolute -left-[20%] top-48 rotate-60 -z-10 lg:hidden">
           <Boxes />
         </div>
 
