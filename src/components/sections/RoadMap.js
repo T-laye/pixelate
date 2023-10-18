@@ -3,10 +3,10 @@ import DropBoxes from "../DropBoxes";
 
 export default function RoadMap() {
   return (
-    <div className="min-h-screen py-10">
+    <div className="min-h-[50vh] py-14">
       <DropBoxes />
       <div className="container mx-auto">
-        <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
+        <h2 className="text-xl font-semibold mb-10 lg:mb-20 text-center lg:text-3xl">
           Our Road Map
         </h2>
 
@@ -18,8 +18,23 @@ export default function RoadMap() {
               PHASE 1
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center">
-              PHASE 1
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex flex-col justify-evenly p-2 ">
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$PXL8 Launch</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>Trendings / Listings</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$4M+ Daily Volume</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>2500+ Holders</div>
+              </div>
             </div>
           </div>
 
@@ -29,8 +44,23 @@ export default function RoadMap() {
               PHASE 2
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center ml-8">
-              PHASE 1
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex flex-col justify-evenly p-2 ml-4">
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$PXL8 Launch</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>Trendings / Listings</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$4M+ Daily Volume</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>2500+ Holders</div>
+              </div>
             </div>
           </div>
 
@@ -41,8 +71,23 @@ export default function RoadMap() {
               PHASE 3
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center">
-              PHASE 1
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex flex-col justify-evenly p-2 ">
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$PXL8 Launch</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>Trendings / Listings</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>$4M+ Daily Volume</div>
+              </div>
+              <div className="flex items-center space-x-1.5">
+                <div className=" w-1 h-1 bg-primary rounded-full"></div>
+                <div>2500+ Holders</div>
+              </div>
             </div>
           </div>
         </div>
