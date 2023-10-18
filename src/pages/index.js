@@ -8,6 +8,7 @@ import Audit from "@/components/sections/Audit";
 import Boxes from "@/components/Boxes";
 import Overview from "@/components/sections/Overview";
 import How from "@/components/sections/How";
+import Tokenomics from "@/components/sections/Tokenomics";
 
 export default function Home() {
   return (
@@ -54,6 +55,15 @@ export default function Home() {
         </div>
 
         <How />
+      </section>
+
+      {/* Tokenomincs */}
+      <section className="relative">
+        <div className="absolute -left-[20%] bottom-48 rotate-60 -z-10  lg:-left-[10%] lg:-top-10 lg:scale-[1.5] 2xl:scale-[2]">
+          <Boxes />
+        </div>
+
+        <Tokenomics />
       </section>
     </Layout>
   );
