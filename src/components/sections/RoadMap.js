@@ -1,8 +1,10 @@
 import React from "react";
+import DropBoxes from "../DropBoxes";
 
 export default function RoadMap() {
   return (
     <div className="min-h-screen py-10">
+      <DropBoxes />
       <div className="container mx-auto">
         <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
           Our Road Map

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import tokenomics from "public/images/tokenomics.svg";
+import DropBoxes from "../DropBoxes";
 
 export default function Tokenomics() {
   return (
@@ -8,6 +9,7 @@ export default function Tokenomics() {
       id="tokenomics"
       className="min-h-screen py-14 lg:py-20 border-b border-b-[#FFFFFF20] "
     >
+      <DropBoxes />
       <div className="container mx-auto">
         <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
           Tokenomics
