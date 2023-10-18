@@ -4,7 +4,10 @@ import tokenomics from "public/images/tokenomics.svg";
 
 export default function Tokenomics() {
   return (
-    <div id="tokenomics" className="min-h-screen py-14 lg:py-20 border-b border-b-[#FFFFFF20] ">
+    <div
+      id="tokenomics"
+      className="min-h-screen py-14 lg:py-20 border-b border-b-[#FFFFFF20] "
+    >
       <div className="container mx-auto">
         <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
           Tokenomics
@@ -36,7 +39,7 @@ export default function Tokenomics() {
             </div>
           </div>
 
-          <div className="mt-16 lg:w-1/2 md:mt-0 md:flex items-center md:px-4">
+          <div className="mt-16 lg:w-1/2 lg:mt-0 lg:flex items-center md:px-4">
             <div className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md p-5 mx-auto">
               <h3 className="text-base lg:text-2xl font-semibold text-center mt-5 lg:mt-0">
                 Supply Breakdown
