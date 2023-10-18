@@ -68,7 +68,14 @@ export default function Home() {
       </section>
 
       {/* Road Map */}
-      <section>
+      <section className="relative overflow-hidden">
+        <div className="absolute left-32 top-32   rotate-[160deg] -z-10  scale-[2.5] opacity-20">
+          <Boxes />
+        </div>
+        <div className="bg-[#150e28] top-[25%]   absolute -z-20 ">
+          <Glow />
+        </div>
+
         <RoadMap />
       </section>
     </Layout>

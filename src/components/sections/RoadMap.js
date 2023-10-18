@@ -16,7 +16,7 @@ export default function RoadMap() {
               PHASE 1
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary bg-[#150e28] text-[8px] flex justify-center items-center">
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center">
               PHASE 1
             </div>
           </div>
@@ -27,7 +27,7 @@ export default function RoadMap() {
               PHASE 2
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary bg-[#150e28] text-[8px] flex justify-center items-center ml-8">
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center ml-8">
               PHASE 1
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function RoadMap() {
               PHASE 3
             </div>
 
-            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary bg-[#150e28] text-[8px] flex justify-center items-center">
+            <div className=" w-[169px] h-[94px] rounded-md border-[0.7px] border-primary  text-[8px] flex justify-center items-center">
               PHASE 1
             </div>
           </div>
