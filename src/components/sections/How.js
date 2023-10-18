@@ -9,7 +9,7 @@ import DropBoxes from "../DropBoxes";
 
 export default function How() {
   return (
-    <div className="min-h-screen">
+    <div id="how" className="min-h-screen">
       <DropBoxes />
       <h2 className="text-xl font-semibold mb-4 md:mb-14 lg:mb-20 text-center lg:text-3xl">
         How to Buy

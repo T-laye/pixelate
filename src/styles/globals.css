@@ -47,6 +47,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .scrolling-header {
   background-color: #150e2879;
   z-index: 1000;

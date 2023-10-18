@@ -47,7 +47,7 @@ export default function Header() {
                 <Link href="/#overview">Overview</Link>
               </li>
               <li className="link ">
-                <Link href="/#howtobuy">How to Buy</Link>
+                <Link href="/#how">How to Buy</Link>
               </li>
               <li className="link ">
                 <Link href="/#tokenomics">Tokenomics</Link>
@@ -101,7 +101,7 @@ export default function Header() {
                       <Link href="/#overview">Overview</Link>
                     </li>
                     <li className="link ">
-                      <Link href="/#howtobuy">How to Buy</Link>
+                      <Link href="/#how">How to Buy</Link>
                     </li>
                     <li className="link ">
                       <Link href="/#tokenomics">Tokenomics</Link>

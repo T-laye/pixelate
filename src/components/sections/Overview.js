@@ -3,7 +3,7 @@ import DropBoxes from "../DropBoxes";
 
 export default function Overview() {
   return (
-    <div className="min-h-[35vh] py-16 lg:py-28">
+    <div id="overview" className="min-h-[35vh] py-16 lg:py-28">
       <DropBoxes />
       <div className="container mx-auto px-16  flex flex-col items-center">
         <h2 className="text-xl font-semibold mb-4 lg:mb-10 text-center lg:text-3xl">
