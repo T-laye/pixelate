@@ -4,7 +4,7 @@ import tokenomics from "public/images/tokenomics.svg";
 
 export default function Tokenomics() {
   return (
-    <div className="min-h-screen py-14 lg:py-20 border-b border-b-[#FFFFFF20] ">
+    <div id="tokenomics" className="min-h-screen py-14 lg:py-20 border-b border-b-[#FFFFFF20] ">
       <div className="container mx-auto">
         <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
           Tokenomics
