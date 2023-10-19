@@ -8,13 +8,13 @@ import DropBoxes from "../DropBoxes";
 
 export default function Socials() {
   return (
-    <div className="pt-5 pb-10 lg:min-h-[50vh]  lg:pt-10 lg:pb-20">
+    <div className="pt-5 pb-10 lg:min-h-[50vh] 2xl:min-h-[30vh]  lg:pt-10 lg:pb-20">
       <DropBoxes />
       <div className="container mx-auto px-8">
         <h2
           data-aos="flip-down"
           data-aos-delay="100"
-          className="text-xl font-semibold mb-3 lg:mb-3 text-center lg:text-3xl"
+          className="text-xl font-semibold mb-3 lg:mb-3 text-center lg:text-3xl 2xl:text-5xl"
         >
           Socials
         </h2>
@@ -22,7 +22,7 @@ export default function Socials() {
         <p
           data-aos="fade-down"
           data-aos-delay="100"
-          className="text-center text-sm max-w-lg mx-auto"
+          className="text-center text-sm max-w-lg mx-auto lg:text-lg"
         >
           Being active on our social networks can be a great way to engage with
           other community members from all over the world.

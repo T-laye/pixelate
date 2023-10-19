@@ -36,12 +36,16 @@ export default function Header() {
       } `}
     >
       <div className="container mx-auto px-5 h-full flex items-center justify-between">
-        <div>
+        <div data-aos="flip-down" data-aos-delay="100">
           <Logo />
         </div>
         <div className="flex items-center">
           {/* Desktop Navbar */}
-          <nav className="hidden lg:block mr-10">
+          <nav
+            data-aos="flip-down"
+            data-aos-delay="100"
+            className="hidden lg:block mr-10"
+          >
             <ul className="flex space-x-10 text-base">
               <li className="link ">
                 <Link href="/#overview">Overview</Link>
@@ -60,8 +64,19 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <button className="btn btn-gradient ">Buy Now</button>
-          <div onClick={handleNav} className="ml-2 cursor-pointer lg:hidden">
+          <button
+            data-aos="flip-down"
+            data-aos-delay="100"
+            className="btn btn-gradient "
+          >
+            Buy Now
+          </button>
+          <div
+            data-aos="flip-down"
+            data-aos-delay="100"
+            onClick={handleNav}
+            className="ml-2 cursor-pointer lg:hidden"
+          >
             <FiMenu size={24} />
           </div>
 
