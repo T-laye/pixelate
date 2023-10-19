@@ -60,8 +60,8 @@ export default function Socials() {
           </Link>
 
           <Link href="#">
-            <div className="w-9 h-9 rounded-full bg-[#D434FE1F] border-[0.816px] border-primary flex items-center justify-center lg:w-14 lg:h-14 icon ">
-              <RxDiscordLogo className="text-2xl lg:text-3xl" />
+            <div className="w-9 h-9 rounded-full bg-gray-800 border-[0.816px] border-gray-700  flex items-center justify-center lg:w-14 lg:h-14 icon ">
+              <RxDiscordLogo className="text-2xl lg:text-3xl text-gray-700" />
             </div>
           </Link>
         </div>

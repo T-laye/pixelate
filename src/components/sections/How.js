@@ -11,7 +11,7 @@ export default function How() {
   return (
     <div
       id="how"
-      className="min-h-screen lg:pb-20  border-b border-b-[#FFFFFF20] "
+      className="min-h-screen lg:pb-20  border-b border-b-[#FFFFFF20]"
     >
       <DropBoxes />
       <div className="container mx-auto ">
