@@ -82,11 +82,11 @@ export default function Hero() {
               </div>
             </Link>
 
-            <Link href="#">
-              <div className="w-8 h-8 rounded-full bg-[#D434FE1F] border-[0.816px] border-primary flex items-center justify-center lg:w-10 lg:h-10 icon ">
-                <RxDiscordLogo className="text-2xl lg:text-3xl" />
-              </div>
-            </Link>
+            {/* <Link href="#"> */}
+            <div className="w-8 h-8 rounded-full bg-gray-800 border-[0.816px] border-gray-700 flex items-center justify-center lg:w-10 lg:h-10 icon ">
+              <RxDiscordLogo className="text-2xl lg:text-3xl text-gray-700" />
+            </div>
+            {/* </Link> */}
           </div>
 
           <div className="mt-4 2xl:mt-7 z-10 cursor-pointer max-[300px]:w-4/5">
