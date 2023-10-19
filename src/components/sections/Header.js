@@ -60,7 +60,9 @@ export default function Header() {
                 <Link href="/#roadMap">Road Map</Link>
               </li>
               <li className="link ">
-                <Link href="/#chart">Chart</Link>
+                <Link href=" https://www.geckoterminal.com/goerli-testnet/pools/0xca23e1e2022af8fe2a42f8aee48897ada843f453">
+                  Chart
+                </Link>
               </li>
             </ul>
           </nav>
@@ -125,7 +127,9 @@ export default function Header() {
                       <Link href="/#roadmap">Road Map</Link>
                     </li>
                     <li className="link ">
-                      <Link href="/#chart">Chart</Link>
+                      <Link href=" https://www.geckoterminal.com/goerli-testnet/pools/0xca23e1e2022af8fe2a42f8aee48897ada843f453">
+                        Chart
+                      </Link>
                     </li>
                   </ul>
                 </div>

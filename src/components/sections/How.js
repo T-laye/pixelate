@@ -27,15 +27,15 @@ export default function How() {
           <div className="md:flex w-full justify-evenly">
             <Card
               number={1}
-              heading="Create MetaMask wallet"
-              text="Create a Meta Mask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive $PXEL8"
+              heading="Create Metamask wallet"
+              text="Create a Metamask Wallet using either a desktop computer or an iOS/Android mobile device. That will allow you to buy, sell, send, and receive $PXL8"
               icon={wallet}
             />
 
             <Card
               number={2}
               heading="Send ETH to your wallet"
-              text="You can buy Ethereum (ETH) directly on Meta Mask or transfer it to your MetMask Wallet from exchanges like Coinbase, Binance, etc."
+              text="You can buy Ethereum (ETH) directly on Metamask or transfer it to your Metamask Wallet from exchanges like Coinbase, Binance, etc."
               icon={sendWallet}
             />
           </div>
@@ -43,7 +43,7 @@ export default function How() {
           <Card
             number={3}
             heading="Connect to your wallet"
-            text="Go to Uniswap and connect your wallet by clicking  'Connect wallet' and selecting MetaMask"
+            text="Go to Uniswap and connect your wallet by clicking  'Connect wallet' and selecting Metamask"
             icon={uniswap}
           />
 
@@ -58,7 +58,7 @@ export default function How() {
             <Card
               number={5}
               heading="Swap ETH for $PXL8"
-              text="Press 'Select a token' and enter the token contract address to find $PXL8 and start your swpa from ETH to $PXL8."
+              text="Press 'Select a token' and enter the token contract address to find $PXL8 and start your swap from ETH to $PXL8."
               icon={swap}
               w="w-8 lg:w-12"
             />

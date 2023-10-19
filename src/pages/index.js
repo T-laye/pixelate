@@ -26,20 +26,6 @@ export default function Home() {
         <Hero />
       </section>
 
-      {/* Audit */}
-      <section className="relative">
-        <div className="bg-[#150e28] absolute top-2 left-20 -z-10  lg:left-96">
-          <Glow />
-        </div>
-        <div className="absolute -left-[66%] -top-1 -z-10 -rotate-90 md:-left-40 md:top-10 lg:-left-48 lg:top-20  lg:scale-[1.5]">
-          <Boxes />
-        </div>
-        <div className="absolute -right-[32%] top-1 -z-10 rotate-60 md:-right-16 md:top-20 lg:-right-24 lg:top-48 md:scale-[1.5] lg:scale-[2]">
-          <Boxes />
-        </div>
-        <Audit />
-      </section>
-
       {/* Overview */}
       <section className="relative ">
         <div className="absolute -right-[5%] -top-14 -z-10 rotate-60 md:right-20 lg:right-24 lg:top-10 md:scale-[1.5] lg:scale-[2]">
@@ -91,6 +77,20 @@ export default function Home() {
           <Glow />
         </div>
         <DesktopRoadMap />
+      </section>
+
+      {/* Audit */}
+      <section className="relative">
+        <div className="bg-[#150e28] absolute top-2 left-20 -z-10  lg:left-96">
+          <Glow />
+        </div>
+        <div className="absolute -left-[66%] -top-1 -z-10 -rotate-90 md:-left-40 md:top-10 lg:-left-48 lg:top-20  lg:scale-[1.5]">
+          <Boxes />
+        </div>
+        <div className="absolute -right-[32%] top-1 -z-10 rotate-60 md:-right-16 md:top-20 lg:-right-24 lg:top-48 md:scale-[1.5] lg:scale-[2]">
+          <Boxes />
+        </div>
+        <Audit />
       </section>
 
       <section className="relative">
