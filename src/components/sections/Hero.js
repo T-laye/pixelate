@@ -47,8 +47,8 @@ export default function Hero() {
             className="w-4/5 mt-6"
           >
             <p className="text-sm md:text-lg 2xl:text-xl">
-              We are all about Organic growth, no presale, no snipers, no
-              bullshit, just Community!
+              $PXL8 is a revolutionary token designed to empower artists and
+              revolutionize the way they create and share their art.
             </p>
           </div>
           <div

@@ -42,27 +42,30 @@ export default function Tokenomics() {
                   {" "}
                   Total Supply $PXL8 <br />{" "}
                 </span>{" "}
-                5% community; 5% team <br /> 10,000,000 PXL tokens
+                10,000,000 $PXL tokens <br /> Liquidity Pool : 80% <br /> Team :
+                9% <br /> Treasury: 6% <br /> Unallocated: 5%
               </p>
             </div>
           </div>
 
           <div className="mt-16 lg:w-1/2 lg:mt-0 lg:flex items-center md:px-4">
-            <div 
-          data-aos="flip-left"
-          data-aos-delay="100" className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md px-5 pb-7 mx-auto">
+            <div
+              data-aos="flip-left"
+              data-aos-delay="100"
+              className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md px-5 pb-7 mx-auto"
+            >
               <h3 className="text-base lg:text-2xl font-semibold text-center mt-5 lg:mt-0">
                 Supply Breakdown
               </h3>
 
               <p className="text-sm lg:text-lg font-normal text-center mt-3">
-                45% of the tokens are allocated for pre-sale, 29.61% is
-                initially burned, and 15.39% was allocated to the V2 Uniswap LP.
-                LP tokens were locked for 1 year and will be extended in the
-                future. The remaining 10% of the supply is held in a multi-sig
-                wallet, reserved for future centralized exchange listings,
-                bridges, and to provide tokens for the 3 Uniswap LP. This wallet
-                can be tracked using the ENS name “$pixel8”.
+                80% of the total supply is allocated to the liquidity pool,
+                which will be locked. 9% of the total supply is reserved for the
+                project&apos;s founders and team members to incentivize their
+                work and commitment. 6% of the total supply is set aside for
+                future development, marketing, and other strategic initiatives.
+                5% of the total supply is yet to be allocated, more information
+                will be passed across in the future.
               </p>
             </div>
           </div>

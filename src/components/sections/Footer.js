@@ -23,11 +23,7 @@ export default function Footer() {
           />
         </div>
 
-        <div
-          data-aos="flip-down"
-          data-aos-delay="100"
-          className="text-sm lg:text-lg text-center mt-3"
-        >
+        <div className="text-sm lg:text-lg text-center mt-3">
           2023 $PXL8. All rights reserved.
         </div>
       </div>

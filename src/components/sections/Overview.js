@@ -18,12 +18,11 @@ export default function Overview() {
           data-aos-delay="0"
           className="text-center text-sm lg:text-2xl max-w-4xl"
         >
-          Where art and technology collide! Pixel8 is a new crypto token project
-          that is revolutionizing the way digital art is created, collected and
-          traded. Pixel8 is built on the Ethereum blockchain, which means that
-          it is secure, transparent and efficient. All pixel8 transactions are
-          recorded on the blockchart, so users can be confident that their
-          purchases are legitimate.
+          $PXL8 is not just another speculative cryptocurrency; it&apos;s a
+          token with real utility embedded in the art ecosystem. It&apos;s a
+          movement to empower artists and revolutionize their craft. We are all
+          about organic growth, no presale, no snipers, no bullshit, just
+          community!
         </p>{" "}
       </div>
     </div>

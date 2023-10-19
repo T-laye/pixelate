@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
       offset: 50,
-      duration: 700,
+      duration: 1000,
       easing: "ease",
       once: false,
       mirror: false,
