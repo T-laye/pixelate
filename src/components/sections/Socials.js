@@ -11,16 +11,28 @@ export default function Socials() {
     <div className="pt-5 pb-10 lg:min-h-[50vh]  lg:pt-10 lg:pb-20">
       <DropBoxes />
       <div className="container mx-auto px-8">
-        <h2 className="text-xl font-semibold mb-3 lg:mb-3 text-center lg:text-3xl">
+        <h2
+          data-aos="flip-down"
+          data-aos-delay="100"
+          className="text-xl font-semibold mb-3 lg:mb-3 text-center lg:text-3xl"
+        >
           Socials
         </h2>
 
-        <p className="text-center text-sm max-w-lg mx-auto">
+        <p
+          data-aos="fade-down"
+          data-aos-delay="100"
+          className="text-center text-sm max-w-lg mx-auto"
+        >
           Being active on our social networks can be a great way to engage with
           other community members from all over the world.
         </p>
 
-        <div className="flex justify-center items-center space-x-2.5 mt-4 2xl:mt-5">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="flex justify-center items-center space-x-2.5 mt-4 2xl:mt-5"
+        >
           <Link href="#">
             <div className="w-9 lg:w-14 icon ">
               <Image

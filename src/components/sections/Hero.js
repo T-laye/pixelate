@@ -27,7 +27,11 @@ export default function Hero() {
       <DropBoxes />
       <div className="container mx-auto px-7  lg:flex h-full">
         <div className="bg-pimary pt-10 lg:pt-20 2xl:pt-28 lg:flex flex-col h-1/2 lg:w-1/2  lg:h-full">
-          <div className="w-40 glitch md:w-56 lg:w-64 2xl:w-80">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="300"
+            className="w-40 glitch md:w-56 lg:w-64 2xl:w-80"
+          >
             <Image
               src={logo}
               alt="$PXL8"
@@ -37,13 +41,21 @@ export default function Hero() {
               className="h-full w-full"
             />
           </div>
-          <div className="w-4/5 mt-6">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="w-4/5 mt-6"
+          >
             <p className="text-sm md:text-lg 2xl:text-xl">
               We are all about Organic growth, no presale, no snipers, no
               bullshit, just Community!
             </p>
           </div>
-          <div className="flex space-x-2 mt-3 2xl:mt-5">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="200"
+            className="flex space-x-2 mt-3 2xl:mt-5"
+          >
             <Link href="#">
               <div className="w-8 lg:w-10 icon ">
                 <Image
@@ -78,10 +90,16 @@ export default function Hero() {
           </div>
 
           <div className="mt-4 2xl:mt-7 z-10 cursor-pointer max-[300px]:w-4/5">
-            <h2 className="font-semibold text-base md:text-lg lg:text-xl">
+            <h2
+              data-aos="flip-down"
+              data-aos-delay="300"
+              className="font-semibold text-base md:text-lg lg:text-xl"
+            >
               Contract Address
             </h2>
             <div
+              data-aos="flip-up"
+              data-aos-delay="300"
               onClick={handleCopyToClipboard}
               className="flex items-center  space-x-3 w-fit p-2 border border-primary bg-[#D434FE1F] mt-4 rounded-md"
             >
@@ -92,12 +110,20 @@ export default function Hero() {
                 <MdContentCopy className="lg:text-base" />
               </div>
             </div>
-            <div className="mt-6 2xl:mt-10 -z-10">
+            <div
+              data-aos="fade-down"
+              data-aos-delay="300"
+              className="mt-6 2xl:mt-10 -z-10"
+            >
               <button className="btn btn-gradient ">Buy Now</button>
             </div>
           </div>
         </div>
-        <div className=" h-1/2 lg:w-1/2  lg:h-full flex -z-20 items-center justify-center">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          className=" h-1/2 lg:w-1/2  lg:h-full flex -z-20 items-center justify-center"
+        >
           <div className=" float -mt-5  h-3/4 lg:h-full  ">
             <Image
               src={globe}

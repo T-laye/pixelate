@@ -15,7 +15,11 @@ export default function How() {
     >
       <DropBoxes />
       <div className="container mx-auto ">
-        <h2 className="text-xl font-semibold mb-4 md:mb-14 lg:mb-20 text-center lg:text-3xl">
+        <h2
+          data-aos="flip-down"
+          data-aos-delay="100"
+          className="text-xl font-semibold mb-4 md:mb-14 lg:mb-20 text-center lg:text-3xl"
+        >
           How to Buy
         </h2>
 

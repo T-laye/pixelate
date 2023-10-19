@@ -11,13 +11,19 @@ export default function Tokenomics() {
     >
       <DropBoxes />
       <div className="container mx-auto">
-        <h2 className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl">
+        <h2
+          data-aos="flip-down"
+          data-aos-delay="100"
+          className="text-xl font-semibold mb-14 lg:mb-20 text-center lg:text-3xl"
+        >
           Tokenomics
         </h2>
 
         <div className="lg:flex">
           <div className="lg:w-1/2">
             <div
+              data-aos="zoom-out"
+              data-aos-delay="100"
               className={`w-full  bg-re-300 flex items-center mx-auto   px-10 md:px-2`}
             >
               <Image
@@ -30,7 +36,7 @@ export default function Tokenomics() {
               />
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
               <p className="text-center mt-8 lg:mt-12 text-base lg:text-lg ">
                 <span className="font-semibold mb-2 lg:text-xl">
                   {" "}
@@ -42,7 +48,9 @@ export default function Tokenomics() {
           </div>
 
           <div className="mt-16 lg:w-1/2 lg:mt-0 lg:flex items-center md:px-4">
-            <div className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md px-5 pb-7 mx-auto">
+            <div 
+          data-aos="flip-left"
+          data-aos-delay="100" className="mb-16 w-4/5 max-w-[450px] min-h-[250px] lg:w-full lg:p-8  relative  bg-gradient-pink border border-primary rounded-md px-5 pb-7 mx-auto">
               <h3 className="text-base lg:text-2xl font-semibold text-center mt-5 lg:mt-0">
                 Supply Breakdown
               </h3>

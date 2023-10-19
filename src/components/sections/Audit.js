@@ -8,7 +8,11 @@ export default function Audit() {
     <div className="relative min-h-[40vh] border-b border-b-[#FFFFFF20] ">
       <DropBoxes />
       <div className="container mx-auto h-full flex justify-center items-center">
-        <div className="w-full md:max-w-2xl lg:max-w-3xl px-9 py-12 md:py-20 lg:py-28">
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="0"
+          className="w-full md:max-w-2xl lg:max-w-3xl px-9 py-12 md:py-20 lg:py-28"
+        >
           <Image
             src={auditors}
             alt="$PXL8"
