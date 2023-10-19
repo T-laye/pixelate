@@ -59,11 +59,11 @@ export default function Socials() {
             </div>
           </Link>
 
-          <Link href="#">
-            <div className="w-9 h-9 rounded-full bg-gray-800 border-[0.816px] border-gray-700  flex items-center justify-center lg:w-14 lg:h-14 icon ">
+          {/* <Link href="#"> */}
+            <div title="Coming Soon" className="w-9 h-9 rounded-full bg-gray-800 border-[0.816px] border-gray-700  flex items-center justify-center lg:w-14 lg:h-14 icon ">
               <RxDiscordLogo className="text-2xl lg:text-3xl text-gray-700" />
             </div>
-          </Link>
+          {/* </Link> */}
         </div>
       </div>
     </div>
