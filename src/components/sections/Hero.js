@@ -118,7 +118,18 @@ export default function Hero() {
               data-aos-delay="300"
               className="mt-6 2xl:mt-10 -z-10"
             >
-              <button className="btn btn-gradient ">Buy Now</button>
+              <Link
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x744c26e20a231d49a23b43b1d12e6f005834a8a3&chain=goerli"
+                target="_blank"
+              >
+                <button
+                  data-aos="flip-down"
+                  data-aos-delay="100"
+                  className="btn btn-gradient "
+                >
+                  Buy Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>

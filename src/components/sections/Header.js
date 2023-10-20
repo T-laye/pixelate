@@ -60,19 +60,27 @@ export default function Header() {
                 <Link href="/#roadMap">Road Map</Link>
               </li>
               <li className="link ">
-                <Link href=" https://www.geckoterminal.com/goerli-testnet/pools/0xca23e1e2022af8fe2a42f8aee48897ada843f453">
+                <Link
+                  target="_blank"
+                  href="https://dexscreener.com/goerli/0xca23e1e2022af8fe2a42f8aee48897ada843f453"
+                >
                   Chart
                 </Link>
               </li>
             </ul>
           </nav>
-          <button
-            data-aos="flip-down"
-            data-aos-delay="100"
-            className="btn btn-gradient "
+          <Link
+            href="https://app.uniswap.org/#/swap?outputCurrency=0x744c26e20a231d49a23b43b1d12e6f005834a8a3&chain=goerli"
+            target="_blank"
           >
-            Buy Now
-          </button>
+            <button
+              data-aos="flip-down"
+              data-aos-delay="100"
+              className="btn btn-gradient "
+            >
+              Buy Now
+            </button>
+          </Link>
           <div
             data-aos="flip-down"
             data-aos-delay="100"
@@ -127,7 +135,10 @@ export default function Header() {
                       <Link href="/#roadmap">Road Map</Link>
                     </li>
                     <li className="link ">
-                      <Link href=" https://www.geckoterminal.com/goerli-testnet/pools/0xca23e1e2022af8fe2a42f8aee48897ada843f453">
+                      <Link
+                        target="_blank"
+                        href="https://dexscreener.com/goerli/0xca23e1e2022af8fe2a42f8aee48897ada843f453"
+                      >
                         Chart
                       </Link>
                     </li>
