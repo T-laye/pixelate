@@ -10,7 +10,7 @@ import { RxDiscordLogo } from "react-icons/rx";
 import { MdContentCopy } from "react-icons/md";
 
 export default function Hero() {
-  const address = "0x744C26E20a231D49a23b43b1d12e6F005834a8a3";
+  const address = "0x9fE8C0D27A2E6eCE417c6aF6BcD674e6A9855D28";
   const [valueToCopy, setValueToCopy] = useState(address);
 
   const handleCopyToClipboard = async () => {
@@ -56,7 +56,7 @@ export default function Hero() {
             data-aos-delay="200"
             className="flex space-x-2 mt-3 2xl:mt-5"
           >
-            <Link href="#">
+            <Link href="https://twitter.com/PXL8ERC">
               <div className="w-8 lg:w-10 icon ">
                 <Image
                   src={x_icon}
@@ -69,7 +69,7 @@ export default function Hero() {
               </div>
             </Link>
 
-            <Link href="#">
+            <Link href="https://t.me/pxl8erc">
               <div className="w-8 lg:w-10 icon ">
                 <Image
                   src={telegram_icon}
@@ -85,9 +85,9 @@ export default function Hero() {
             {/* <Link href="#"> */}
             <div
               title="Coming Soon"
-              className="w-8 h-8 rounded-full bg-gray-800 border-[0.816px] border-gray-700 flex items-center justify-center lg:w-10 lg:h-10 icon "
+              className="w-8 h-8 rounded-full bg-[#D434FE1F] border-[0.816px] border-[#D434FE]  flex items-center justify-center lg:w-10 lg:h-10 icon "
             >
-              <RxDiscordLogo className="text-2xl lg:text-3xl text-gray-700" />
+              <RxDiscordLogo className="text-2xl lg:text-3xl " />
             </div>
             {/* </Link> */}
           </div>
@@ -119,7 +119,7 @@ export default function Hero() {
               className="mt-6 2xl:mt-10 -z-10"
             >
               <Link
-                href="https://app.uniswap.org/#/swap?outputCurrency=0x744c26e20a231d49a23b43b1d12e6f005834a8a3&chain=goerli"
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x9fe8c0d27a2e6ece417c6af6bcd674e6a9855d28&chain=goerli"
                 target="_blank"
               >
                 <button

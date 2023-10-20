@@ -62,7 +62,7 @@ export default function Header() {
               <li className="link ">
                 <Link
                   target="_blank"
-                  href="https://dexscreener.com/goerli/0xca23e1e2022af8fe2a42f8aee48897ada843f453"
+                  href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
                 >
                   Chart
                 </Link>
@@ -70,7 +70,7 @@ export default function Header() {
             </ul>
           </nav>
           <Link
-            href="https://app.uniswap.org/#/swap?outputCurrency=0x744c26e20a231d49a23b43b1d12e6f005834a8a3&chain=goerli"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0x9fe8c0d27a2e6ece417c6af6bcd674e6a9855d28&chain=goerli"
             target="_blank"
           >
             <button
@@ -137,7 +137,7 @@ export default function Header() {
                     <li className="link ">
                       <Link
                         target="_blank"
-                        href="https://dexscreener.com/goerli/0xca23e1e2022af8fe2a42f8aee48897ada843f453"
+                        href="https://dexscreener.com/goerli/0x196483e5de44074951b10cf802331d40b2346db5"
                       >
                         Chart
                       </Link>

@@ -33,7 +33,7 @@ export default function Socials() {
           data-aos-delay="100"
           className="flex justify-center items-center space-x-2.5 mt-4 2xl:mt-5"
         >
-          <Link href="#">
+          <Link href="https://twitter.com/PXL8ERC">
             <div className="w-9 lg:w-14 icon ">
               <Image
                 src={x_icon}
@@ -46,7 +46,7 @@ export default function Socials() {
             </div>
           </Link>
 
-          <Link href="#">
+          <Link href="https://t.me/pxl8erc">
             <div className="w-9 lg:w-14 icon ">
               <Image
                 src={telegram_icon}
@@ -60,9 +60,12 @@ export default function Socials() {
           </Link>
 
           {/* <Link href="#"> */}
-            <div title="Coming Soon" className="w-9 h-9 rounded-full bg-gray-800 border-[0.816px] border-gray-700  flex items-center justify-center lg:w-14 lg:h-14 icon ">
-              <RxDiscordLogo className="text-2xl lg:text-3xl text-gray-700" />
-            </div>
+          <div
+            title="Coming Soon"
+            className="w-9 h-9 rounded-full bg-[#D434FE1F] border-[0.816px] border-[#D434FE]  flex items-center justify-center lg:w-14 lg:h-14 icon "
+          >
+            <RxDiscordLogo className="text-2xl lg:text-3xl " />
+          </div>
           {/* </Link> */}
         </div>
       </div>

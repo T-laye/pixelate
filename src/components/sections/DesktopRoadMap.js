@@ -68,19 +68,19 @@ export default function DesktopRoadMap() {
               >
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>$PXL8 Launch</div>
+                  <div>Partnership And Collaboration</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>Trendings / Listings</div>
+                  <div>Pxlverse Genesis NFT Collection</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>$4M+ Daily Volume</div>
+                  <div>DAO Community Funding </div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>2500+ Holders</div>
+                  <div>$8M+ Daily Volume</div>
                 </div>
               </div>
             </div>
@@ -107,19 +107,19 @@ export default function DesktopRoadMap() {
               >
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>$PXL8 Launch</div>
+                  <div>DAO Community Proposals</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>Trendings / Listings</div>
+                  <div>Custom Collectables</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>$4M+ Daily Volume</div>
+                  <div>NFT Marketplace </div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className=" w-2 h-2 bg-primary rounded-full"></div>
-                  <div>2500+ Holders</div>
+                  <div>$10M+ Daily Volume</div>
                 </div>
               </div>
             </div>
